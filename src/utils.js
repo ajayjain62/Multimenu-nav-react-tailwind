@@ -1,150 +1,290 @@
-import { Bolt } from "lucide-react";
-import { ShoppingBag } from "lucide-react";
-import { BellDot } from "lucide-react";
-import { BookOpenText } from "lucide-react";
-import { BriefcaseBusiness } from "lucide-react";
-import { CircleHelp } from "lucide-react";
-import { TriangleAlert } from "lucide-react";
-import { Users } from "lucide-react";
-import { Lock } from "lucide-react";
-import { Dessert } from "lucide-react";
-import { ShieldPlus } from "lucide-react";
-import { MessageCircle } from "lucide-react";
-import { Images } from "lucide-react";
-import { Figma } from "lucide-react";
-import { Play } from "lucide-react";
-import { MapPin } from "lucide-react";
-import { Database } from "lucide-react";
-import { PanelsTopLeft } from "lucide-react";
-import { PanelTop } from "lucide-react";
+import {
+  Bolt,
+  ShoppingBag,
+  BellDot,
+  BookOpenText,
+  BriefcaseBusiness,
+  CircleHelp,
+  TriangleAlert,
+  Users,
+  Lock,
+  Dessert,
+  ShieldPlus,
+  MessageCircle,
+  Images,
+  Figma,
+  Play,
+  MapPin,
+  Database,
+  PanelsTopLeft,
+  PanelTop,
+  Star,
+  Feather,
+  Cloud,
+  Square,
+  Circle,
+} from "lucide-react";
 
 export const Menus = [
   {
-    name: "Features",
-    subMenuHeading: ["Design", "Scale"],
+    name: "Bedsheet",
+    subMenuHeading: ["By Size", "Styles"],
     subMenu: [
       {
-        name: "Design",
-        desc: "Responsive design",
+        name: "Single Bedsheet (60 * 90)",
+        desc: "Compact and cozy for single beds",
         icon: PanelsTopLeft,
       },
       {
-        name: "Management",
-        desc: "Site control",
+        name: "Fitted Bedsheet",
+        desc: "Fits snugly on the mattress",
+        icon: ShoppingBag,
+      },
+      {
+        name: "Double Bedsheet (90 * 100/108)",
+        desc: "Perfect for double beds",
         icon: Bolt,
       },
       {
-        name: "Navigation",
-        desc: "Link pages",
+        name: "Printed Bedsheet",
+        desc: "Stylish and patterned",
+        icon: Images,
+      },
+      {
+        name: "King Bedsheet (100 * 108)",
+        desc: "Spacious for king-size beds",
         icon: PanelTop,
       },
       {
-        name: "CMS",
-        desc: "Management content",
+        name: "Plain Satin Bedsheet",
+        desc: "Elegant and smooth texture",
+        icon: BellDot,
+      },
+      {
+        name: "Super King Bedsheet (108 * 108)",
+        desc: "Ultimate luxury for super king-size beds",
         icon: Database,
+      },
+      {
+        name: "Kids Print Bedsheet",
+        desc: "Fun designs for kids",
+        icon: Play,
       },
     ],
     gridCols: 2,
   },
   {
-    name: "Resources",
-    subMenuHeading: ["Get started", "Programs", "Recent"],
+    name: "Comforter & Duvet",
+    subMenuHeading: ["Comfort Options", "Styles"],
     subMenu: [
       {
-        name: "Markplace",
-        desc: "Browse templates",
+        name: "Single Bed Comforter",
+        desc: "Perfect for single beds",
+        icon: PanelsTopLeft,
+      },
+      {
+        name: "Double Bed Comforter",
+        desc: "Ideal for couples",
+        icon: Bolt,
+      },
+      {
+        name: "Printed Comforter",
+        desc: "Stylish and colorful",
+        icon: Images,
+      },
+      {
+        name: "Solid Color Reversible Comforter",
+        desc: "Versatile and reversible",
+        icon: Database,
+      },
+      {
+        name: "Kids Comforter",
+        desc: "Fun and cozy for children",
+        icon: ShoppingBag,
+      },
+    ],
+    gridCols: 2,
+  },
+  {
+    name: "Mattress & Pillow Protector",
+    subMenuHeading: ["Types", "Styles"],
+    subMenu: [
+      {
+        name: "Quilted Mattress Protector",
+        desc: "Extra cushioning",
+        icon: PanelTop,
+      },
+      {
+        name: "Fitted Quilted Mattress Protector",
+        desc: "Snug fit",
+        icon: Database,
+      },
+      {
+        name: "Terry Mattress Protector",
+        desc: "Waterproof and soft",
         icon: ShoppingBag,
       },
       {
-        name: "Meetups",
-        desc: "Upcoming events",
+        name: "Pillow Protector",
+        desc: "Preserve pillow life",
+        icon: MapPin,
+      },
+    ],
+    gridCols: 2,
+  },
+  {
+    name: "Pillows & Cushions",
+    subMenuHeading: ["Options", "Styles"],
+    subMenu: [
+      {
+        name: "Memory Foam Pillow",
+        desc: "Regular Memory Foam Pillow  Contour Neck Support Foam Pillow",
+        icon: BellDot,
+        subMenu: [
+          {
+            name: "Regular Memory Foam Pillow",
+            desc: "Standard comfort and support",
+            icon: Play,
+          },
+          {
+            name: "Contour Neck Support Foam Pillow",
+            desc: "Ergonomic design for neck support",
+            icon: ShieldPlus,
+          },
+        ],
+      },
+      {
+        name: "Quilted Pillow",
+        desc: "Soft and plush",
+        icon: Star,
+      },
+      {
+        name: "Single Dori Pillow",
+        desc: "Stylish piping design",
+        icon: Users,
+      },
+      {
+        name: "Gusset / Double Dori Pillow",
+        desc: "Reinforced for durability",
+        icon: Feather,
+      },
+      {
+        name: "Plain Pillow",
+        desc: "Simple and elegant",
+        icon: Cloud,
+      },
+      {
+        name: "Satin Pillow",
+        desc: "Luxury feel and shine",
+        icon: Square,
+      },
+      {
+        name: "Dori Cushion",
+        desc: "Decorative and stylish",
+        icon: Circle,
+      },
+      {
+        name: "Plain Cushion",
+        desc: "Minimalistic design",
+        icon: Cloud,
+      },
+      {
+        name: "Quilted Cushion",
+        desc: "Textured and plush",
+        icon: Star,
+      },
+      {
+        name: "Bolster",
+        desc: "Cylindrical pillow for support",
+        icon: Feather,
+      },
+    ],
+    gridCols: 2,
+  },
+  {
+    name: "Hotel & Hospitality",
+    subMenuHeading: ["Essentials", "Styles"],
+    subMenu: [
+      {
+        name: "White Comforter",
+        desc: "Luxurious, premium, cozy",
+        icon: ShieldPlus,
+      },
+      {
+        name: "Extra Soft Fluffy Pillow",
+        desc: "Soft, comfortable, supportive",
+        icon: Star,
+      },
+      {
+        name: "Cushions",
+        desc: "Decorative, functional, stylish",
+        icon: Feather,
+      },
+      {
+        name: "Bedsheets",
+        desc: "Durable, elegant, smooth",
+        icon: Database,
+      },
+      {
+        name: "Towels and Bathmats",
+        desc: "Absorbent, soft, durable",
+        icon: Cloud,
+      },
+      {
+        name: "Duvet Cover",
+        desc: "Protective, elegant, versatile",
+        icon: PanelsTopLeft,
+      },
+      {
+        name: "Mattress Protector",
+        desc: "Hygienic, durable, essential",
         icon: MapPin,
       },
       {
-        name: "Updates",
-        desc: "Changelog",
-        icon: BellDot,
-      },
-      {
-        name: "Academy",
-        desc: "Watch lessions",
+        name: "Pillow Protector",
+        desc: "Clean, fresh, protective",
         icon: Play,
       },
-      {
-        name: "Blog",
-        desc: "Posts",
-        icon: BookOpenText,
-      },
-      {
-        name: "Figma",
-        desc: "Plugin",
-        icon: Figma,
-      },
-      {
-        name: "Experts",
-        desc: "Jobs",
-        icon: BriefcaseBusiness,
-      },
-      {
-        name: "Gallery",
-        desc: "Images",
-        icon: Images,
-      },
     ],
-    gridCols: 3,
+    gridCols: 2,
   },
   {
-    name: "Support",
+    name: "Covers",
+    subMenuHeading: ["Options", "Styles"],
     subMenu: [
       {
-        name: "Help",
-        desc: "Center",
-        icon: CircleHelp,
+        name: "Cushion Covers",
+        desc: "Decorative and durable",
+        icon: Dessert,
       },
       {
-        name: "Community",
-        desc: "Project help",
-        icon: MessageCircle,
+        name: "Bed Covers",
+        desc: "Elegant designs",
+        icon: Lock,
       },
       {
-        name: "Emergency",
-        desc: "Urgent issues",
-        icon: TriangleAlert,
+        name: "Duvet Covers",
+        desc: "Protect and style duvets",
+        icon: ShieldPlus,
       },
     ],
     gridCols: 1,
   },
   {
-    name: "Enterprise",
-    subMenuHeading: ["Overview", "Features"],
+    name: "Dohar",
+    subMenuHeading: ["Size Options", "Styles"],
     subMenu: [
       {
-        name: "Enterprise",
-        desc: "Overview",
-        icon: ShieldPlus,
+        name: "Single Bed Dohar",
+        desc: "Lightweight and warm",
+        icon: PanelsTopLeft,
       },
       {
-        name: "Collaboration",
-        desc: "Design together",
-        icon: Users,
-      },
-      {
-        name: "Customers",
-        desc: "Stories",
-        icon: Dessert,
-      },
-      {
-        name: "Security",
-        desc: "Your site secured",
-        icon: Lock,
+        name: "Double Bed Dohar",
+        desc: "Comfortable for two",
+        icon: Bolt,
       },
     ],
-    gridCols: 2,
-  },
-  {
-    name: "Pricing",
-  },
-  {
-    name: "Contact",
+    gridCols: 1,
   },
 ];
