@@ -5,6 +5,7 @@ import MobMenu from "./components/MobMenu";
 
 export default function App() {
   return (
+    
     <div>
       <header className="h-16 text-[15px] fixed inset-0 flex-center bg-[#18181A] ">
         <nav className=" px-3.5 flex-center-between w-full max-w-7xl mx-auto">
