@@ -31,7 +31,7 @@ export const Menus = [
     subMenuHeading: ["By Size", "Styles"],
     subMenu: [
       {
-        name: "Single Bedsheet (60 * 90)",
+        name: "Single Bedsheet ",
         desc: "Compact and cozy for single beds",
         icon: PanelsTopLeft,
       },
@@ -41,7 +41,7 @@ export const Menus = [
         icon: ShoppingBag,
       },
       {
-        name: "Double Bedsheet (90 * 100/108)",
+        name: "Double Bedsheet ",
         desc: "Perfect for double beds",
         icon: Bolt,
       },
@@ -51,7 +51,7 @@ export const Menus = [
         icon: Images,
       },
       {
-        name: "King Bedsheet (100 * 108)",
+        name: "King Bedsheet ",
         desc: "Spacious for king-size beds",
         icon: PanelTop,
       },
@@ -61,7 +61,7 @@ export const Menus = [
         icon: BellDot,
       },
       {
-        name: "Super King Bedsheet (108 * 108)",
+        name: "Super King Bedsheet ",
         desc: "Ultimate luxury for super king-size beds",
         icon: Database,
       },
