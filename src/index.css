@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-[black] text-gray-300 font-inter;
+  @apply bg-[white] text-gray-300 font-inter;
 }
 
 @layer components {
@@ -16,6 +16,7 @@ body {
 
 @layer utilities {
   .flex-center {
+    color: black;
     font-size: 12px;
     @apply flex items-center;
   }
